@@ -1,0 +1,53 @@
+*{
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+}
+body{
+  background-color: blueviolet;
+}
+hr{
+  width:100%;
+}
+.main-div{
+  display: grid;
+  /* place-items: center; */
+  margin: 0 auto;
+}
+.image-div{
+  height: 407px;
+}
+.image{
+  width:311px;
+  height: 100%;
+}
+.title-div h2{
+  text-align: left;
+  
+  font-size:32px;
+  font-weight: 700;
+  line-height: 43.58px;
+}
+.title-div p{
+  font-family: 'Belgrano', serif;
+  font-size: 12px;
+  line-height: 23.24px;
+}
+.rating-div{
+  display: flex;
+}
+.cut-price{
+  text-decoration: line-through;
+}
+.upper{
+  border: 1px solid blue;
+  display: flex;
+}
+.lower{
+  display: flex;
+  border: 1px solid rgb(59, 172, 138);
+}
+.cart-btn{
+  background-color: cornflowerblue;
+  color:white;
+  width: 100%;
+}
